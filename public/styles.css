@@ -1,0 +1,43 @@
+*{
+  box-sizing:borderbox;
+  margin:0;
+  padding:0;
+}
+.navigate{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 0.7px solid grey;
+  height: 100px;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+}
+a{
+  text-decoration:none;
+  font-weight:bolder;
+  color:black;
+  padding: 0 20px;
+}
+.mainContent{
+   margin-top: 120px;
+}
+.mainContent fieldset{
+   margin-left:20%;
+   margin-right:20%;
+   padding: 20px 10px;
+}
+.mainContent fieldset form{
+  display:flex;
+  flex-direction:column;
+  padding: 5px 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.mainContent fieldset form label{
+  margin-top:5px;
+}
+.mainContent fieldset form input{
+ margin-bottom:5px;
+}
